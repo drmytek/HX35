@@ -1,5 +1,23 @@
+![GitHub Logo](https://github.com/keyboardpartner/HX35/blob/master/HX35_k.JPG)
+
+
+***
+
 # HX3.5
-Firmware and Docs for HX3 mk5
+
+## Firmware and Docs for HX3 mk5
+
+## HX3 Latest Firmware
+
+#### Final releases for update with HX3 Remote application
+
+**WICHTIG: Bitte entpacken Sie die ZIP-Files in einen Ordner auf Ihrer lokalen Festplatte. Starten Sie HX3 Editor aus diesem Ordner. Beim Start direkt im ZIP-Fenster schlägt das Update fehl.**
+
+**IMPORTANT: Be sure to extract all files to a local hard disk folder. Update will fail if started directly from ZIP window.**
+
+New: Complete update packages for most common HX3 instruments for a hassle-free update to newest version. 
+The ZIPs Flash_XXX.zip contain only the files needed for your instrument. 
+You don't need the other HX3 stuff offered here, just make sure you use **only the new files and HX3 Flash utility** contained in dedicated ZIP package. 
 
 
 Dateiliste für Updates
