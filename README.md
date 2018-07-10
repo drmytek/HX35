@@ -10,7 +10,7 @@
 Festplatte. Starten Sie HX3 Editor aus diesem Ordner. Beim Start direkt im ZIP-
 Fenster schlägt das Update fehl.**
 
-Zum Update Files im betreffenden ZIP-File "SDCARD" auf eine (leere) SD- oder 
+Zum Update Files im Ihr Gerät betreffenden ZIP-File "SDCARD" auf eine (leere) SD- oder 
 SDHC-Karte kopieren, in den SD-Kartenadapter einsetzen und HX3.5 mit 
 Stromversorgung verbinden (Neustart).
 
@@ -19,6 +19,15 @@ will fail if started directly from ZIP window.**
 
 To update HX3.5, unzip and copy all files from appropriate ZIP file "SDCARD" to empty SD 
 or SDHC card. Insert SD card in HX3.5 card adaptor and power up HX3.5 (Reset/Restart).  
+
+### Changelog
+
+<b>02/07/2018</b> Firmware 5.080, FPGA #09072018
+
+* "Common Preset Save" Bug fixed
+* Lower default leakage, was way too high 
+* Issue with ENV_ENA Bits fixed, electronic gating was permanently on
+* Various minor bugs fixed
 
 Dateiliste
 ==========
