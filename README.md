@@ -1,33 +1,32 @@
-![GitHub Logo](https://github.com/keyboardpartner/HX35/blob/master/HX35_k.JPG)
+# HX3.5
 
+![GitHub Logo](https://github.com/keyboardpartner/HX35/blob/master/HX35_k.JPG)
 
 ***
 
-# HX3.5
-
 ## Firmware and Docs for HX3 mk5
 
-## HX3 Latest Firmware
+**WICHTIG: Bitte entpacken Sie die ZIP-Files in einen Ordner auf Ihrer lokalen 
+Festplatte. Starten Sie HX3 Editor aus diesem Ordner. Beim Start direkt im ZIP-
+Fenster schlägt das Update fehl.**
 
-#### Final releases for update with HX3 Remote application
+Zum Update Files im betreffenden ZIP-File "SDCARD" auf eine (leere) SD- oder 
+SDHC-Karte kopieren, in den SD-Kartenadapter einsetzen und HX3.5 mit 
+Stromversorgung verbinden (Neustart).
 
-**WICHTIG: Bitte entpacken Sie die ZIP-Files in einen Ordner auf Ihrer lokalen Festplatte. Starten Sie HX3 Editor aus diesem Ordner. Beim Start direkt im ZIP-Fenster schlägt das Update fehl.**
+**IMPORTANT: Be sure to extract all files to a local hard disk folder. Update 
+will fail if started directly from ZIP window.**
 
-**IMPORTANT: Be sure to extract all files to a local hard disk folder. Update will fail if started directly from ZIP window.**
+To update HX3.5, unzip and copy all files from appropriate ZIP file "SDCARD" to empty SD 
+or SDHC card. Insert SD card in HX3.5 card adaptor and power up HX3.5 (Reset/Restart).  
 
-New: Complete update packages for most common HX3 instruments for a hassle-free update to newest version. 
-The ZIPs Flash_XXX.zip contain only the files needed for your instrument. 
-You don't need the other HX3 stuff offered here, just make sure you use **only the new files and HX3 Flash utility** contained in dedicated ZIP package. 
-
-
-Dateiliste für Updates
-======================
+Dateiliste
+==========
 
 Dokumente
 ---------
 
-"Controllerliste HX35_custom.xls": Excel-Tabelle mit HX3.5-MIDI-CCs und CSV-Export 
-für "hx35_organ.csv". 
+Schaltpläne und Audio-Routing-Blockdiagramme
 
 Hilfsprogramme
 --------------
