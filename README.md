@@ -97,14 +97,10 @@ Für ein Komplett-Update sind folgende Dateien nötig:
 
 "taper1.dat"..."taper4.dat": Generator-Ausgangspegel und Manual Taperings (4 Sets), 
 
-"waveset0.bin"..."waveset7.bin": Generator-Wellenformen (8 Sets),
+"waveset0.bin"..."waveset7.bin": Generator-Wellenformen (8 Sets mit je 8 Wellenformen),
 
 "fir_coe.dat": FIR-Filterkoeffizienten für Leslie-Horn,
 
 "firmware.bin": Firmware-Image für AVR, Flash-Inhalt,
 
 "eeprom.bin": Firmware-Image für AVR, EEPROM-Inhalt
-
-
-================================
--cm 1.2.2018
