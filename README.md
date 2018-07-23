@@ -22,6 +22,11 @@ or SDHC card. Insert SD card in HX3.5 card adaptor and power up HX3.5 (Reset/Res
 
 ### Changelog
 
+<b>02/07/2018</b> Firmware 5.082, SD Card INI Scripts
+
+* INI Script ReadLn bug fixed
+* INI Scripts were corrupted (LF instead of CRLF)
+
 <b>02/07/2018</b> Firmware 5.080, FPGA #09072018
 
 * "Common Preset Save" Bug fixed
