@@ -22,12 +22,19 @@ or SDHC card. Insert SD card in HX3.5 card adaptor and power up HX3.5 (Reset/Res
 
 ### Changelog
 
-<b>02/07/2018</b> Firmware 5.082, SD Card INI Scripts
+<b>07/30/2018</b> Firmware 5.085, HX3.5 Editor
+
+* Firmware, Scan Driver and FPGA update via MIDI, MIDI over USB or FTDI cable possible (needs one-time update via SD card)
+* HX3.5 Editor version 5.08 also works with MIDI or MIDI over USB connection (no driver required on Windows PCs)
+* Bugfix on Drawbar Mixture setup
+* Bugfix Overall Preset Handling
+
+<b>07/07/2018</b> Firmware 5.082, SD Card INI Scripts
 
 * INI Script ReadLn bug fixed
 * INI Scripts were corrupted (LF instead of CRLF)
 
-<b>02/07/2018</b> Firmware 5.080, FPGA #09072018
+<b>07/02/2018</b> Firmware 5.080, FPGA #09072018
 
 * "Common Preset Save" Bug fixed
 * Lower default leakage, was way too high 
