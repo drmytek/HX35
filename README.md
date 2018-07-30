@@ -20,6 +20,12 @@ will fail if started directly from ZIP window.**
 To update HX3.5, unzip and copy all files from appropriate ZIP file "SDCARD" to empty SD 
 or SDHC card. Insert SD card in HX3.5 card adaptor and power up HX3.5 (Reset/Restart).  
 
+From Firmware 5.085 and up, also Firmware, Scan Driver and FPGA update via MIDI, 
+MIDI over USB or FTDI cable possible by HX3.5 Editor 5.08 and up. This requires 
+a one-time installation of firmware 5.085 or higher by using our SD card and 
+slot adaptor. From then, you are able to update by HX3.5 Editor also, using 
+either s MIDI connecttion or out FTDI serial adaptor cable.
+
 ### Changelog
 
 <b>07/30/2018</b> Firmware 5.085, HX3.5 Editor
