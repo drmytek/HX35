@@ -24,7 +24,7 @@ From **Firmware 5.085** and up, it is also possible to update Firmware, Scan Dri
 MIDI over USB or FTDI cable using HX3.5 Editor 5.08 and up. This requires 
 a **one-time installation of firmware 5.085** or higher by using a SD card and our
 slot adaptor. From then, you are able to update by HX3.5 Editor alternatively, using 
-either s MIDI connecttion or out FTDI serial adaptor cable. 
+either a MIDI connection or our FTDI serial adaptor cable. 
 
 ### Changelog
 
