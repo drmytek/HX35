@@ -28,23 +28,26 @@ either a MIDI connection or our FTDI serial adaptor cable.
 
 ### Changelog
 
-<b>008/09/2018</b> Firmware 5.086
+<b>008/09/2018</b> Firmware #5.086, Scan Driver #12, DSP #01.02
 
-* Phasing Rotor modulation enhanced
+* Phasing Rotor modulation enhanced 
+* Sostenuto pedal changed from MIDI CC $42 to $45 (69 dec.) due to NI B4 Perc CC conflict. Without this update, HX3 Drawbar 
+controller PERC ON will not work.
+* DSP #01.02 will send CC $45 on Sostenuto pedal changes now
 
-<b>07/30/2018</b> Firmware 5.085, HX3.5 Editor
+<b>07/30/2018</b> Firmware 5#.085, HX3.5 Editor
 
 * Firmware, Scan Driver and FPGA update via MIDI, MIDI over USB or FTDI cable possible (needs one-time update via SD card)
 * HX3.5 Editor version 5.08 also works with MIDI or MIDI over USB connection (no driver required on Windows PCs)
 * Bugfix on Drawbar Mixture setup
 * Bugfix Overall Preset Handling
 
-<b>07/07/2018</b> Firmware 5.082, SD Card INI Scripts
+<b>07/07/2018</b> Firmware #5.082, SD Card INI Scripts
 
 * INI Script ReadLn bug fixed
 * INI Scripts were corrupted (LF instead of CRLF)
 
-<b>07/02/2018</b> Firmware 5.080, FPGA #09072018
+<b>07/02/2018</b> Firmware #5.080, FPGA #09072018
 
 * "Common Preset Save" Bug fixed
 * Lower default leakage, was way too high 
