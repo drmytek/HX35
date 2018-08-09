@@ -28,6 +28,10 @@ either a MIDI connection or our FTDI serial adaptor cable.
 
 ### Changelog
 
+<b>008/09/2018</b> Firmware 5.086
+
+* Phasing Rotor modulation enhanced
+
 <b>07/30/2018</b> Firmware 5.085, HX3.5 Editor
 
 * Firmware, Scan Driver and FPGA update via MIDI, MIDI over USB or FTDI cable possible (needs one-time update via SD card)
