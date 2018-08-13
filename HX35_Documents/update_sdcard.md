@@ -1,5 +1,9 @@
 # Updating HX3.5 using SD Card
 
+![SD Card](hx35_sdcard.JPG)
+
+***
+
 Firmware updates and Setup scripts (.INI files) may be executed from SD card. An 
 appropriate SD card adaptor is available from KeyboardPartner. Attach SD card 
 adaptor cable to HX3.5 board connector PL17. 
