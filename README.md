@@ -28,8 +28,10 @@ either a MIDI connection or our FTDI serial adaptor cable.
 
 ### Changelog
 
-<b>008/09/2018</b> Firmware #5.086, Scan Driver #12, DSP #01.02
+<b>08/13/2018</b> Firmware #5.087, Scan Driver #12, DSP #01.02
 
+* External Rotary control switch bug fixed
+* Mixture Drawbars will no longer sound on B3 and Combo Organ Models
 * Phasing Rotor modulation enhanced 
 * Sostenuto pedal changed from MIDI CC $42 to $45 (69 dec.) due to NI B4 Perc CC conflict. Without this update, HX3 Drawbar 
 controller PERC ON will not work.
