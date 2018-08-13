@@ -27,9 +27,9 @@ local folder on your harddisk.
 Updates are possible by one of the following methods:
 
 * via [HX3.5 Editor with MIDI connection](https://github.com/keyboardpartner/HX35/blob/master/HX35_Documents/update_midi.md) (Windows operating system required, all devices)
-* via (https://github.com/keyboardpartner/HX35/blob/master/HX35_Documents/update_ftdi.md HX3.5 Editor with FTDI USB/serial adaptor cable connection) (Windows operating system and access to board connectors required)
-* via (https://github.com/keyboardpartner/HX35/blob/master/HX35_Documents/update_ftdi.md HX3.5 Editor with old Extension Board mk4) (Windows operating system required)
-* via (https://github.com/keyboardpartner/HX35/blob/master/HX35_Documents/update_sdcard.md SD Card and SD Card slot adaptor), available separately (access to board connectors required)
+* via [HX3.5 Editor with FTDI USB/serial adaptor cable connection](https://github.com/keyboardpartner/HX35/blob/master/HX35_Documents/update_ftdi.md) (Windows operating system and access to board connectors required)
+* via [HX3.5 Editor with old Extension Board mk4](https://github.com/keyboardpartner/HX35/blob/master/HX35_Documents/update_ftdi.md) (Windows operating system required)
+* via [SD Card and SD Card slot adaptor](https://github.com/keyboardpartner/HX35/blob/master/HX35_Documents/update_sdcard.md), available separately (access to board connectors required)
  
 
 ### Changelog
