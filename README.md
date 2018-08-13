@@ -1,8 +1,6 @@
 # HX3.5
 
-![GitHub Logo](https://github.com/keyboardpartner/HX35/blob/master/HX35_k.JPG)
-
-***
+![HX35 Board](https://github.com/keyboardpartner/HX35/blob/master/HX35_k.JPG)
 
 ## Firmware and Docs for HX3 mk5
 

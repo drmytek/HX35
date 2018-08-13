@@ -16,7 +16,7 @@ present on SD card. Once the update is completed, this file will be renamed to
 "_autorun.ini" to prevent further obsolete updates.
 
 The HX3.5 Editor application is also able to trigger updates from SD Card (in 
-Update/Finalize Window) -- see [HX3.5 Editor manual](http://wiki.keyboardpartner.de/index.php?title=HX3.5_Editor)
+Update/Finalize Window) - see [HX3.5 Editor manual](http://wiki.keyboardpartner.de/index.php?title=HX3.5_Editor)
 for details.
 
 Firmware updates from SD card are basically controlled by "Setup Scripts" (.INI files) 
