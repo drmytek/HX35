@@ -6,25 +6,30 @@
 
 ## Firmware and Docs for HX3 mk5
 
-**WICHTIG: Bitte entpacken Sie die ZIP-Files in einen Ordner auf Ihrer lokalen 
-Festplatte. Starten Sie HX3 Editor aus diesem Ordner. Beim Start direkt im ZIP-
-Fenster schlägt das Update fehl.**
-
-Zum Update Files im Ihr Gerät betreffenden ZIP-File "SDCARD" auf eine (leere) SD- oder 
-SDHC-Karte kopieren, in den SD-Kartenadapter einsetzen und HX3.5 mit 
-Stromversorgung verbinden (Neustart).
-
-**IMPORTANT: Be sure to extract all files to a local hard disk folder. Update 
+**IMPORTANT: Be sure to extract all ZIP files to a local hard disk folder. Update 
 will fail if started directly from ZIP window.**
 
-To update HX3.5, unzip and copy all files from appropriate ZIP file "SDCARD" to empty SD 
-or SDHC card. Insert SD card in HX3.5 card adaptor and power up HX3.5 (Reset/Restart).  
+Updates for HX3.5 consist of several parts:
 
-From **Firmware 5.085** and up, it is also possible to update Firmware, Scan Driver and FPGA update via MIDI, 
-MIDI over USB or FTDI cable using HX3.5 Editor 5.08 and up. This requires 
-a **one-time installation of firmware 5.085** or higher by using a SD card and our
-slot adaptor. From then, you are able to update by HX3.5 Editor alternatively, using 
-either a MIDI connection or our FTDI serial adaptor cable. 
+* Firmware (firmware.bin and eeprom.bin), handles user interface and MIDI CC
+* FPGA Sound Engine (hx3_main.bin), sound generation
+* Scan Driver (scanXXX.dat), handles keyboard scanning or MIDI receive
+* Wavesets (wavesetX.bin), waveform definitions for Sound Engine, different organ models
+* Taperings (taperX.dat), B3/H100 tone generator filters and manual tapering definitions
+* FIR coefficients (fir_coe.dat), coefficient file for rotary horn simulation
+
+Files may be used independently and may carry different time stamps.
+
+Please download the ZIP file dedicated for your particular product 
+configuration. Unzip and copy all files from appropriate ZIP file "UPDATE" to a 
+local folder on your harddisk. 
+
+Updates are possible by one of the following methods:
+
+* via (https://github.com/keyboardpartner/HX35/blob/master/HX35_Documents/update_midi.md HX3.5 Editor with MIDI connection) (Windows operating system required, all devices)
+* via (https://github.com/keyboardpartner/HX35/blob/master/HX35_Documents/update_ftdi.md HX3.5 Editor with FTDI USB/serial adaptor cable connection) (Windows operating system and access to board connectors required)
+* via (https://github.com/keyboardpartner/HX35/blob/master/HX35_Documents/update_ftdi.md HX3.5 Editor with old Extension Board mk4) (Windows operating system required)
+* via (https://github.com/keyboardpartner/HX35/blob/master/HX35_Documents/update_sdcard.md SD Card and SD Card slot adaptor), available separately (access to board connectors required)
 
 ### Changelog
 
