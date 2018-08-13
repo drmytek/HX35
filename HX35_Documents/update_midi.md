@@ -1,8 +1,8 @@
 # Updating HX3.5 with HX3.5 Editor
 
-## Using MIDI or MIDI over USB connection
+**Using MIDI or MIDI over USB connection**
 
-![SD Card](hx35_sdcard.JPG)
+![Finalize Window](Editor508_finalize.png)
 
 ### Connection
 
