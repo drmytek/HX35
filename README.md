@@ -36,6 +36,7 @@ either a MIDI connection or our FTDI serial adaptor cable.
 * Sostenuto pedal changed from MIDI CC $42 to $45 (69 dec.) due to NI B4 Perc CC conflict. Without this update, HX3 Drawbar 
 controller PERC ON will not work.
 * DSP #01.02 will send CC $45 on Sostenuto pedal changes now
+* MAG Organs only: Amp 122 volume will have a minimal amount
 
 <b>07/30/2018</b> Firmware 5#.085, HX3.5 Editor
 
