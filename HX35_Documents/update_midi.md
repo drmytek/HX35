@@ -11,8 +11,9 @@ connection (IN/OUT) using a third-party MIDI adaptor, by MIDI over USB using a
 USB connection or by our FTDI serial adaptor cable. Also, any FTDI device with 
 FT232 chip as our FTDI serial adaptor board may be used. Power up HX3.5, Open 
 HX3.5 Editor application and click on Connect. A dialog window will appear which 
-asks for the MIDI or FTDI device to use. Note: FTDI connection is somewhat 
-faster than MIDI.
+asks for the MIDI device to use. 
+See [HX3.5 Editor manual](http://wiki.keyboardpartner.de/index.php?title=HX3.5_Editor)
+for further details.
 
 ### MIDI connection
 
@@ -20,7 +21,7 @@ When HX3.5 is connected to your PC's USB port, it will appear as "HX3_USB" in
 list of input/output devices. Per default, these items are checked in HX3.5 
 Editor's Connect window, so connection will use the MIDI over USB. Protocol is 
 proprietary SysEx, so other devices will not respond to HX3.5 Editor commands. 
-Note: On some PCs, intermediate USB hubs will not work -- use a direct USB 
+Note: On some PCs, intermediate USB hubs will not work - use a direct USB 
 connection instead.
 
 For updates, entering extended licences or changing Scan Driver from MIDI to 
@@ -51,5 +52,3 @@ Make sure that green Organ Licence "LED" is already lit. To install an Extended
 Licence, enter number in Extended Licence text field and click Send 
 Licences/Name.
 
-See [HX3.5 Editor manual](http://wiki.keyboardpartner.de/index.php?title=HX3.5_Editor)
-for further details.
