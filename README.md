@@ -32,9 +32,10 @@ Updates are possible by one of the following methods:
 
 ### Changelog
 
-<b>08/14/2018</b> Firmware #5.088
+<b>08/14/2018</b> Firmware #5.088, Scan Driver #14 
 
 * External Rotary control switch bug fixed (Extension Board)
+* Bug "randomly very low velocity sent" fixed in Scan Driver
 
 <b>08/13/2018</b> Firmware #5.087, Scan Driver #12, DSP #01.02
 
