@@ -32,19 +32,19 @@ Updates are possible by one of the following methods:
 
 ### Changelog
 
-<b>08/15/2018</b> Firmware #5.089, Scan Driver #14, HX3.5 Editor 
+<b>08/16/2018</b> Firmware #5.090, Scan Driver #14, HX3.5 Editor 
 
-* External Rotary control switch bug fixed (Extension Board) 
-* Bug "randomly 
-very low velocity sent" fixed in Scan Driver 
+* Bugfix: GM Voice save to Overall Preset
+* Bugfix: External Rotary control switch (Extension Board) 
+* Bugfix: "randomly very low velocity sent" in Scan Driver 
 * GM voices minor bugfix 
 * HX3.5 Editor allows mapping of "extra" upper/lower/pedal voices #16..23 to any GM program number (see new 
 "DSP/GM Setup" group). Click "Save Params as Default" after editing to activate new mapping.
-
+* Lowered "Relative Organ Volume" param 1491 (see DSP/GM Setup Group in HX3.5 Editor) to 64 for better match to GM voices
 
 Note: Disable Param 1497 (Sync Voice Numbers) in "System Inits" to enable GM 
 Voice numbers saved in Overall Presets. From this FW and up, param 1497 will be disabled 
-by default.
+by default. **Do "Finalize" with HX3.5 Editor after update!**
 
 <b>08/13/2018</b> Firmware #5.087, Scan Driver #12, DSP #01.02
 
