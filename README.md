@@ -32,6 +32,16 @@ Updates are possible by one of the following methods:
 
 ### Changelog
 
+<b>08/16/2018</b> Firmware #5.091, HX3.5 Editor 
+
+* Bugfix: EEPROM init restauration after update or factory reset was faulty
+* Changed INI scripts to properly setup System Inits
+* Use new HX3.5 Editor to update firmware. Will always update EEPROM if firmware update by FTDI or MIDI is selected from drop-down menu.
+
+Important: Please update firmware twice, otherwise Button Remaps may contain 
+garbage. With update by FTDI or MIDI using HX3.5 Editor, updating firmware 
+is sufficient.
+
 <b>08/16/2018</b> Firmware #5.090, Scan Driver #14, HX3.5 Editor 
 
 * Bugfix: GM Voice save to Overall Preset
