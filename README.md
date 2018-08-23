@@ -40,7 +40,7 @@ Updates are possible by one of the following methods:
 
 Important: Please update firmware twice, otherwise Button Remaps may contain 
 garbage. With update by FTDI or MIDI using HX3.5 Editor, updating firmware 
-is sufficient.
+is sufficient. "Finalize" with HX3.5 Editor or by SD card INI script after update.
 
 <b>08/16/2018</b> Firmware #5.090, Scan Driver #14, HX3.5 Editor 
 
