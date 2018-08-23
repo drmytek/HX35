@@ -9,15 +9,6 @@ will fail if started directly from ZIP window.**
 
 Updates for HX3.5 consist of several parts:
 
-* Firmware (firmware.bin and eeprom.bin), handles user interface and MIDI CC
-* FPGA Sound Engine (hx3_main.bin), sound generation
-* Scan Driver (scanXXX.dat), handles keyboard scanning or MIDI receive
-* Wavesets (wavesetX.bin), waveform definitions for Sound Engine, different organ models
-* Taperings (taperX.dat), B3/H100 tone generator filters and manual tapering definitions
-* FIR coefficients (fir_coe.dat), coefficient file for rotary horn simulation
-
-Files may be used independently and may carry different time stamps.
-
 Please download the ZIP file dedicated for your particular product 
 configuration. Unzip and copy all files from appropriate ZIP file "UPDATE" to a 
 local folder on your harddisk. 
