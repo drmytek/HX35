@@ -24,10 +24,10 @@ local folder on your harddisk.
 
 Updates are possible by one of the following methods:
 
-* via [HX3.5 Editor with MIDI connection](https://github.com/keyboardpartner/HX35/blob/master/HX35_Documents/update_midi.md) (Windows operating system required, all devices)
-* via [HX3.5 Editor with FTDI USB/serial adaptor cable connection](https://github.com/keyboardpartner/HX35/blob/master/HX35_Documents/update_ftdi.md) (Windows operating system and access to board connectors required)
-* via [HX3.5 Editor with old Extension Board mk4](https://github.com/keyboardpartner/HX35/blob/master/HX35_Documents/update_ext_mk4.md) (Windows operating system required)
-* via [SD Card and SD Card slot adaptor](https://github.com/keyboardpartner/HX35/blob/master/HX35_Documents/update_sdcard.md), available separately (access to board connectors required)
+* via [HX3.5 Editor with MIDI connection](http://wiki.keyboardpartner.de/index.php?title=HX3.5_Update_by_MIDI) (Windows operating system required, all devices)
+* via [HX3.5 Editor with FTDI USB/serial adaptor cable connection](http://wiki.keyboardpartner.de/index.php?title=HX3.5_Update_by_FTDI_or_Extension_Board_mk4) (Windows operating system and access to board connectors required)
+* via [HX3.5 Editor with old Extension Board mk4](http://wiki.keyboardpartner.de/index.php?title=HX3.5_Update_by_FTDI_or_Extension_Board_mk4#Extension_Board_mk4_connection) (Windows operating system required)
+* via [SD Card and SD Card slot adaptor](http://wiki.keyboardpartner.de/index.php?title=HX3.5_SD_Card_Usage), available separately (access to board connectors required)
  
 
 ### Changelog
