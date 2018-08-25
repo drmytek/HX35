@@ -23,6 +23,12 @@ Updates are possible by one of the following methods:
 
 ### Changelog
 
+<b>08/25/2018</b> Firmware #5.092, HX3.5 Editor #5.09, DSP #01.03 
+
+* Firmware: Bugfix Update by USB MIDI
+* DSP: Bugfix SysEx handling
+* HX3.5 Editor: Added "Start DFU" by MIDI
+
 <b>08/16/2018</b> Firmware #5.091, HX3.5 Editor 
 
 * Bugfix: EEPROM init restauration after update or factory reset was faulty
