@@ -27,7 +27,8 @@ Updates are possible by one of the following methods:
 
 * Firmware: Bugfix Update by USB MIDI
 * DSP: Bugfix SysEx handling
-* HX3.5 Editor: Added "Start DFU" by MIDI
+* HX3.5 Editor: Added "Start DFU" by MIDI, added descriptions for WersiVoice/PHR
+* PHR Switch 0 selects WersiVoice (OFF) or Böhm Phasing Rotor (ON), improved PHR params
 
 <b>08/16/2018</b> Firmware #5.091, HX3.5 Editor 
 
