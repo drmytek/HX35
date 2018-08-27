@@ -20,16 +20,17 @@ Updates are possible by one of the following methods:
 * via [HX3.5 Editor with old Extension Board mk4](http://wiki.keyboardpartner.de/index.php?title=HX3.5_Update_by_FTDI_or_Extension_Board_mk4#Extension_Board_mk4_connection) (Windows operating system required)
 * via [SD Card and SD Card slot adaptor](http://wiki.keyboardpartner.de/index.php?title=HX3.5_SD_Card_Usage), available separately (access to board connectors required)
  
+Parts to be updated from previous version are mentioned in headline.
 
 ### Changelog
 
 <b>08/25/2018</b> Firmware #5.093, HX3.5 Editor #5.09, DSP #01.03 
 
 * Firmware: Bugfix Update by USB MIDI
+* Firmware: Added 8 separate Scanner Vibrato programs for 8 organ models, PHR tab 0 selects WersiVoice (OFF) or Böhm Phasing Rotor (ON) 
+* Firmware: PHR Switch 0 selects WersiVoice (OFF) or Böhm Phasing Rotor (ON), improved PHR params
 * DSP: Bugfix SysEx handling
-* HX3.5 Editor: Added "Start DFU" by MIDI, added descriptions for WersiVoice/PHR
-* PHR Switch 0 selects WersiVoice (OFF) or Böhm Phasing Rotor (ON), improved PHR params
-* Added 8 separate Scanner Vibrato programs for 8 organ models
+* HX3.5 Editor: Added "Start DFU" by MIDI, added descriptions for WersiVoice/PHR, 8 Scanner Vibrato programs
 
 <b>08/16/2018</b> Firmware #5.091, HX3.5 Editor 
 
