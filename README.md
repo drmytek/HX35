@@ -24,6 +24,13 @@ Parts to be updated from previous version are mentioned in headline.
 
 ### Changelog
 
+<b>08/30/2018</b> Firmware #5.095, HX3.5 Editor #5.095
+
+* Firmware: Bugfix "Bass Rotot won't stop completely"
+* HX3.5 Editor: Added Button "Create INI Script", creates INI setup file with all current parameters
+* HX3.5 Editor: Added Button "Run INI Script", runs INI setup file from Editor similar to running from SD card
+
+
 <b>08/25/2018</b> Firmware #5.093, HX3.5 Editor #5.09, DSP #01.03 
 
 * Firmware: Bugfix Update by USB MIDI
