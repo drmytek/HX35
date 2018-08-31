@@ -52,9 +52,10 @@ Parts to be updated from previous version are mentioned in headline.
 
 ### Changelog
 
-<b>08/30/2018</b> Firmware #5.095, HX3.5 Editor #5.095
+<b>08/30/2018</b> Firmware #5.096, HX3.5 Editor #5.095
 
 * Firmware: Bugfix "Bass Rotot won't stop completely"
+* Firmware: Bugfix "KeyB (Duo) MIDI CC interpreter not working"
 * HX3.5 Editor: Added Button "Create INI Script", creates INI setup file with all current parameters
 * HX3.5 Editor: Added Button "Run INI Script", runs INI setup file from Editor similar to running from SD card
 * Added INI Setup Scripts for manual full update via DisplayPanel menu (update.ini), forced EEPROM rewrite in case parameters are corrupted (eeprupd.ini), 
