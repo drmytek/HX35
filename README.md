@@ -52,9 +52,28 @@ Parts to be updated from previous version are mentioned in headline.
 
 ### Changelog
 
+<b>09/07/2018</b> Firmware #5.100, HX3.5 Editor #5.100, DSP #1.04
+
+* HX3.5 Editor: New virtual organ panel with tabs and drawbars; should also work with older firmwares
+* HX3.5 Editor: Will automatically start DreamDFU utility for DSP updates
+* Firmware: Added Support for reading binary Preset and Voice setting blocks
+* Firmware: Bugfix KeyB Duo MIDI CC set, Vibknob/MIDI to Panel16 translation, Perc menu display
+* Firmware: Fail-save EEPROM file programming
+* DSP: GM synth will no longer sound on channels out of organ channel range (1 to 3). 
+Only update DSP if the GM synth should not sound on channels 4 to 16.
+
+From firmware 5.1 and up, there is only one firmware common for all devices 
+(exception: MAG and UHL organs). Firmware is "personalized" to work on a 
+particular device by running a "config_xxx" INI script ("make_xxx.ini") from editor or by 
+using SD card after update is done. 
+
+If using an SD card for update, a script called "config.ini" is run 
+automatically after firmware update by "autorun.ini" (if present on card). 
+"config.ini" is imply a renamed "config_xxx.ini" file.
+
 <b>08/30/2018</b> Firmware #5.096, HX3.5 Editor #5.095
 
-* Firmware: Bugfix "Bass Rotot won't stop completely"
+* Firmware: Bugfix "Bass Rotor won't stop completely"
 * Firmware: Bugfix "KeyB (Duo) MIDI CC interpreter not working"
 * HX3.5 Editor: Added Button "Create INI Script", creates INI setup file with all current parameters
 * HX3.5 Editor: Added Button "Run INI Script", runs INI setup file from Editor similar to running from SD card
