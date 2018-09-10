@@ -24,52 +24,29 @@ Parts to be updated from previous version are mentioned in headline.
 
 ### Changelog
 
-<b>08/30/2018</b> Firmware #5.095, HX3.5 Editor #5.095
+<b>09/07/2018</b> Firmware #5.101, HX3.5 Editor #5.100, DSP #1.04
 
-# HX3.5
-
-![HX35 Board](https://github.com/keyboardpartner/HX35/blob/master/HX35_k.JPG)
-
-## Firmware and Docs for HX3 mk5
-
-**IMPORTANT: Be sure to extract all ZIP files to a local hard disk folder. Update 
-will fail if started directly from ZIP window.**
-
-Updates for HX3.5 consist of several parts:
-
-Please download the ZIP file dedicated for your particular product 
-configuration. Unzip and copy all files from appropriate ZIP file "UPDATE" to a 
-local folder on your harddisk. 
-
-Updates are possible by one of the following methods:
-
-* via [HX3.5 Editor with MIDI connection](http://wiki.keyboardpartner.de/index.php?title=HX3.5_Update_by_MIDI) (Windows operating system required, all devices)
-* via [HX3.5 Editor with FTDI USB/serial adaptor cable connection](http://wiki.keyboardpartner.de/index.php?title=HX3.5_Update_by_FTDI_or_Extension_Board_mk4) (Windows operating system and access to board connectors required)
-* via [HX3.5 Editor with old Extension Board mk4](http://wiki.keyboardpartner.de/index.php?title=HX3.5_Update_by_FTDI_or_Extension_Board_mk4#Extension_Board_mk4_connection) (Windows operating system required)
-* via [SD Card and SD Card slot adaptor](http://wiki.keyboardpartner.de/index.php?title=HX3.5_SD_Card_Usage), available separately (access to board connectors required)
- 
-Parts to be updated from previous version are mentioned in headline.
-
-### Changelog
-
-<b>09/07/2018</b> Firmware #5.100, HX3.5 Editor #5.100, DSP #1.04
-
-* HX3.5 Editor: New virtual organ panel with tabs and drawbars; should also work with older firmwares
+* HX3.5 Editor: New virtual organ panel with tabs and drawbars; should also work with older HX3.5 firmwares
 * HX3.5 Editor: Will automatically start DreamDFU utility for DSP updates
-* Firmware: Added Support for reading binary Preset and Voice setting blocks
+* HX3.5 Editor: Added Backup support
 * Firmware: Bugfix KeyB Duo MIDI CC set, Vibknob/MIDI to Panel16 translation, Perc menu display
 * Firmware: Fail-save EEPROM file programming
+* Firmware: Bugfix Percussion did not sound on preset to live change
+* Firmware: Bugfix Rotary setting not memorized
+* Firmware: Added Support for reading binary Preset and Voice setting blocks
 * DSP: GM synth will no longer sound on channels out of organ channel range (1 to 3). 
 Only update DSP if the GM synth should not sound on channels 4 to 16.
 
 From firmware 5.1 and up, there is only one firmware common for all devices 
 (exception: MAG and UHL organs). Firmware is "personalized" to work on a 
-particular device by running a "config_xxx" INI script ("make_xxx.ini") from editor or by 
+particular device by running a "config_xxx" INI script ("config_xxx.ini") from editor or by 
 using SD card after update is done. 
 
 If using an SD card for update, a script called "config.ini" is run 
 automatically after firmware update by "autorun.ini" (if present on card). 
-"config.ini" is imply a renamed "config_xxx.ini" file.
+"config.ini" is simply a renamed "config_xxx.ini" file.
+
+Please backup Licence Info before updating!
 
 <b>08/30/2018</b> Firmware #5.096, HX3.5 Editor #5.095
 
