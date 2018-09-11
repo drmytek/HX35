@@ -24,18 +24,17 @@ Parts to be updated from previous version are mentioned in headline.
 
 ### Changelog
 
-<b>09/07/2018</b> Firmware #5.101, HX3.5 Editor #5.100, DSP #1.04
+<b>09/07/2018</b> Firmware #5.102, HX3.5 Editor #5.100, DSP #1.04
 
 * HX3.5 Editor: New virtual organ panel with tabs and drawbars; should also work with older HX3.5 firmwares
 * HX3.5 Editor: Will automatically start DreamDFU utility for DSP updates
 * HX3.5 Editor: Added Backup support
 * Firmware: Bugfix KeyB Duo MIDI CC set, Vibknob/MIDI to Panel16 translation, Perc menu display
-* Firmware: Fail-save EEPROM file programming
+* Firmware: Fail-save EEPROM file programming, unified firmware, "config.ini" support
 * Firmware: Bugfix Percussion did not sound on preset to live change
 * Firmware: Bugfix Rotary setting not memorized
-* Firmware: Added Support for reading binary Preset and Voice setting blocks
-* DSP: GM synth will no longer sound on channels out of organ channel range (1 to 3). 
-Only update DSP if the GM synth should not sound on channels 4 to 16.
+* Firmware: Added Support for reading binary Preset and Voice setting blocks (OEM only)
+* DSP: GM synth will no longer sound on channels out of organ channel range (1 to 3). Only update DSP if the GM synth should not sound on channels 4 to 16.
 
 From firmware 5.1 and up, there is only one firmware common for all devices 
 (exception: MAG and UHL organs). Firmware is "personalized" to work on a 
@@ -46,7 +45,12 @@ If using an SD card for update, a script called "config.ini" is run
 automatically after firmware update by "autorun.ini" (if present on card). 
 "config.ini" is simply a renamed "config_xxx.ini" file.
 
-Please backup Licence Info before updating!
+**Please backup Licence Info before updating to #5.102!** Unfortunately, older 
+firmwares had a data offset bug which did not retain licence information and 
+board defaults. When updating to #5.102, execute the "factory_xxx.ini" script 
+dedicated for your board application from **HX3.5 Editor's Finalize** window or 
+run "factory.ini" on SD card from HX3.5 Script Menu.
+
 
 <b>08/30/2018</b> Firmware #5.096, HX3.5 Editor #5.095
 
