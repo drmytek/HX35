@@ -24,6 +24,16 @@ Parts to be updated from previous version are mentioned in headline.
 
 ### Changelog
 
+<b>09/12/2018</b> Firmware #5.103, HX3.5 Editor #5.103, Scan Driver 5x.15
+
+* HX3.5 Editor: "Menu Enables" order fixed
+* HX3.5 Editor: Added update entry "Firmware only" in Update/Finalize Window
+* Firmware: Switching of H100/B2 Percussion fixed
+* Scan Driver: Bugfix MIDI channel assignment (was not able to receive on MIDI channels other than 1/2/3)
+
+For updates from #5.102 to #5.103 select "Firmware file" (no EEPROM necessary) and "Scan 
+Driver File" in Finalize Window. Presets and voice settings are not changed.
+
 <b>09/07/2018</b> Firmware #5.102, HX3.5 Editor #5.100, DSP #1.04
 
 * HX3.5 Editor: New virtual organ panel with tabs and drawbars; should also work with older HX3.5 firmwares
