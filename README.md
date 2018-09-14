@@ -24,8 +24,9 @@ Parts to be updated from previous version are mentioned in headline.
 
 ### Changelog
 
-<b>09/12/2018</b> Firmware #5.104, HX3.5 Editor #5.103, Scan Driver 5x.15
+<b>09/12/2018</b> Firmware #5.104 BETA, HX3.5 Editor #5.104, Scan Driver 5x.15
 
+* Known Bug: Preset/Preset change 
 * HX3.5 Editor: "Menu Enables" order fixed
 * HX3.5 Editor: Added update entry "Firmware only" in Update/Finalize Window
 * Firmware: Switching of H100/B2 Percussion fixed
