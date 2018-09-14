@@ -33,8 +33,8 @@ Parts to be updated from previous version are mentioned in headline.
 * Firmware: "Sync Voices with Presets" enabled on UHL instruments
 * Scan Driver: Bugfix MIDI channel assignment (was not able to receive on MIDI channels other than 1/2/3)
 
-For updates from #5.102 to #5.103 select "Firmware file" (no EEPROM necessary) and "Scan 
-Driver File" in Finalize Window. Presets and voice settings are not changed.
+For updates to #5.104 select "Firmware/EEPROM" and "Scan 
+Driver File" in Finalize Window abd Execute "config.ini" from SD card or HX3.5 Editor's Update/Finalize window.
 
 <b>09/07/2018</b> Firmware #5.102, HX3.5 Editor #5.100, DSP #1.04
 
