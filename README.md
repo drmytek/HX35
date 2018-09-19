@@ -24,17 +24,27 @@ Parts to be updated from previous version are mentioned in headline.
 
 ### Changelog
 
-<b>09/19/2018</b> Firmware #5.105 BETA, HX3.5 Editor #5.104, Scan Driver 5x.16
+<b>09/19/2018</b> Firmware #5.105, HX3.5 Editor #5.105, Scan Driver 5x.16
 
 * Firmware: Bugfix Preset/Live and Preset/Preset change
 * Firmware: Will not forget presets and voices when updating
 * Firmware: Bugfix "Split Mode not stored to Overall Presets"
 * Scan Driver: Split mode handling improved
 * Scan Driver: Bugfix non-working pedals on "Lower to Upper Split"
+* HX3.5 Editor: Assignment Dropdown List Bugfix
+* HX3.5 Editor: Changes for 16 KByte "preset.dat" file
 
 For updates from #5.103 and below to #5.105 select "Firmware/EEPROM" and "Scan 
 Driver File" in HX3.5 Editor's Update/Finalize Window and Execute "config.ini" 
 from Editor. SD card updates will handle this automatically.
+
+Hx3.5 will create a "preset.dat" file (button "Get & Save Preset Block" in 
+"Advanced" page) if connected by FTDI. This file contains all preset settings in 
+binary form. It may be uploaded by menu in Update/Finalize window or copied to 
+an SD card. If HX3.5 finds this file on a firmware update, it will be loaded 
+into preset memory.
+
+Preset structure will not change in future, so this file may also be used as a backup.
 
 <b>09/12/2018</b> Firmware #5.104 BETA, HX3.5 Editor #5.104, Scan Driver 5x.15
 
