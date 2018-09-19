@@ -24,6 +24,14 @@ Parts to be updated from previous version are mentioned in headline.
 
 ### Changelog
 
+<b>09/19/2018</b> Firmware #5.105 BETA, HX3.5 Editor #5.104, Scan Driver 5x.16
+
+* Firmware: Bugfix Preset/Live and Preset/Preset change
+* Firmware: Will not forget presets and voices when updating
+* Firmware: Bugfix "Split Mode not stored to Overall Presets"
+* Scan Driver: Split mode handling improved
+* Scan Driver: Bugfix non-working pedals on "Lower to Upper Split"
+
 <b>09/12/2018</b> Firmware #5.104 BETA, HX3.5 Editor #5.104, Scan Driver 5x.15
 
 * Known Bug: Preset/Preset change 
