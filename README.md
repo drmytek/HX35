@@ -32,6 +32,10 @@ Parts to be updated from previous version are mentioned in headline.
 * Scan Driver: Split mode handling improved
 * Scan Driver: Bugfix non-working pedals on "Lower to Upper Split"
 
+For updates from #5.103 and below to #5.105 select "Firmware/EEPROM" and "Scan 
+Driver File" in HX3.5 Editor's Update/Finalize Window and Execute "config.ini" 
+from Editor. SD card updates will handle this automatically.
+
 <b>09/12/2018</b> Firmware #5.104 BETA, HX3.5 Editor #5.104, Scan Driver 5x.15
 
 * Known Bug: Preset/Preset change 
@@ -41,8 +45,9 @@ Parts to be updated from previous version are mentioned in headline.
 * Firmware: "Sync Voices with Presets" enabled on UHL instruments
 * Scan Driver: Bugfix MIDI channel assignment (was not able to receive on MIDI channels other than 1/2/3)
 
-For updates to #5.104 select "Firmware/EEPROM" and "Scan 
-Driver File" in Finalize Window abd Execute "config.ini" from SD card or HX3.5 Editor's Update/Finalize window.
+For updates to #5.104 select "Firmware/EEPROM" and "Scan Driver File" in HX3.5 
+Editor's Update/Finalize Window and Execute "config.ini" from Editor. SD card 
+updates will handle this automatically.
 
 <b>09/07/2018</b> Firmware #5.102, HX3.5 Editor #5.100, DSP #1.04
 
