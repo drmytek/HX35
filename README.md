@@ -28,6 +28,7 @@ Parts to be updated from previous version are mentioned in headline.
 
 * Added Scan Driver "scansr61.dat" for Scan61-Inline and Scan16 (single-contact keybeds)
 * HX3.5 Editor: Added hint to run "config.ini" after firmware updates
+* "config.ini" and "factory.ini" changed to sync Voices with Overall Presets, somewhat higher organ volume
 
 For using the Scan61-Inline and Scan16 driver, just run "upd_sr61.ini" from 
 HX3.5 setup file menu (SD card) or update scan driver from HX3.5 Editor's 
