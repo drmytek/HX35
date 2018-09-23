@@ -24,6 +24,17 @@ Parts to be updated from previous version are mentioned in headline.
 
 ### Changelog
 
+<b>09/19/2018</b> DSP Firmware HX35_5504-FW_0105.dfu and HX35_5504-FW_noGM_1105.dfu
+
+* Added reverb to Extension board Leslie 11-pin and Output jacks
+* Alternative DSP Reverb firmare noGM_11.05 available: No GM (Piano) voices, but more "large" Reverb Programs 0..9 instead of 0..3. 
+* List of reverb programs: 0: Off, 1: Short Room, 2: Room A, 3: Room B, 
+4: Small Hall A, 5: Small Hall B, 6: Large Hall A, 
+7: Large Hall B, 8: Short Plate, 9: Vocal Plate (Editor "Reverb Setup" Parameters 1145..1147)
+
+DSP updates are included in the HX3.5 Editor ZIP. 
+See [DSP Update Page](http://wiki.keyboardpartner.de/index.php?title=HX3.5_DSP-Updates) for details.
+
 <b>09/20/2018</b> Scan Driver 5x.16 for Scan61-Inline and Scan16
 
 * Added Scan Driver "scansr61.dat" for Scan61-Inline and Scan16 (single-contact keybeds)
