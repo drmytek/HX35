@@ -24,6 +24,13 @@ Parts to be updated from previous version are mentioned in headline.
 
 ### Changelog
 
+<b>09/19/2018</b> Firmware #5.200, HX3.5 Editor #5.200
+
+* HX3.5 Editor: added function keys ESC, F1..F12 for Preset/Voice recall #00..#12. Use U/L/P/C keys to select Upper, Lower, Pedal or Common Presets.
+* Firmware: Various small bug fixes, simplified Preset handling
+* Firmware: New "Enable Preset Mask" parameter 1498 to enable/disable storing various param groups either to preset or to startup defaults
+
+
 <b>09/19/2018</b> DSP Firmware HX35_5504-FW_0105.dfu and HX35_5504-FW_noGM_1105.dfu
 
 * Added reverb to Extension board Leslie 11-pin and Output jacks
