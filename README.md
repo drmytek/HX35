@@ -26,7 +26,7 @@ Parts to be updated from previous version are mentioned in headline.
 
 <b>09/19/2018</b> Firmware #5.200, HX3.5 Editor #5.200
 
-* HX3.5 Editor: added function keys ESC, F1..F12 for Preset/Voice recall #00..#12. Use U/L/P/C keys to select Upper, Lower, Pedal or Common Presets.
+* HX3.5 Editor: Added function keys ESC, F1..F12 in Tab/DB Panel window for Preset/Voice recall #00..#12. USe SHIFT-ESC to SHIFT-F12 to read and refresh displayed parameters also. Use U/L/P/C keys to select Upper, Lower, Pedal or Common Presets.
 * Firmware: Various small bug fixes, simplified Preset handling
 * Firmware: New "Enable Preset Mask" parameter 1498 to enable/disable storing various param groups either to preset or to startup defaults
 
