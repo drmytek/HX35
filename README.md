@@ -26,7 +26,8 @@ Parts to be updated from previous version are mentioned in headline.
 
 <b>09/19/2018</b> DSP Firmware HX35_5504-FW_0106.dfu
 
-* Bugfix: Distorted "long release" sounds or with Damper/Sustain pedal on
+* Bugfix: Distorted "long release" GM sounds or with Damper/Sustain pedal on
+* Bugfix: SysEx End recognition (GM sounds went off after SysEx transmission, i.e. HX3.5 Editor connected)
 
 <b>09/19/2018</b> Firmware #5.200, HX3.5 Editor #5.200
 
