@@ -24,10 +24,14 @@ Parts to be updated from previous version are mentioned in headline.
 
 ### Changelog
 
-<b>09/19/2018</b> DSP Firmware HX35_5504-FW_0106.dfu
+<b>09/19/2018</b> DSP Firmware HX35_5504-FW_0106.dfu, Firmware 5.202 BETA
 
-* Bugfix: Distorted "long release" GM sounds or with Damper/Sustain pedal on
-* Bugfix: SysEx End recognition (GM sounds went off after SysEx transmission, i.e. HX3.5 Editor connected)
+* Firmware: Faster response to swell and volume changes via MIDI
+* Firmware: Shortened menu list
+* Firmware: Added Percussion/2nd Voice Level to menu
+* Firmware: Added Envelope Drawbars for "EG Percussion" organ mode to menu
+* DSP: Bugfix, Distorted "long release" GM sounds or with Damper/Sustain pedal on
+* DSP: Bugfix, SysEx End recognition (GM sounds went off after SysEx transmission, i.e. HX3.5 Editor connected)
 
 <b>09/19/2018</b> Firmware #5.200, HX3.5 Editor #5.200
 
