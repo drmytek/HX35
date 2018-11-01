@@ -24,6 +24,15 @@ Parts to be updated from previous version are mentioned in headline.
 
 ### Changelog
 
+<b>09/19/2018</b> Firmware 5.300 BETA
+
+* Firmware: Clavia Nord C1/C2 MIDI CC set #7
+* Firmware: MIDI ProgramChange Send/Receive
+* Firmware: MIDI Swell (Expression) Send, CC number same as in MIDI menu
+* Firmware: Bank Select Send/Receive for Overall Presets
+* Firmware: Faster integrator for MIDI Swell/Volume changes
+* Firmware: Bugfixes 2nd Drawbar Set Select for DB9 MPX, Percussion Cancel
+
 <b>09/19/2018</b> DSP Firmware HX35_5504-FW_0106.dfu, Firmware 5.202 BETA
 
 * Firmware: Faster response to swell and volume changes via MIDI
@@ -32,6 +41,8 @@ Parts to be updated from previous version are mentioned in headline.
 * Firmware: Added Envelope Drawbars for "EG Percussion" organ mode to menu
 * DSP: Bugfix, Distorted "long release" GM sounds or with Damper/Sustain pedal on
 * DSP: Bugfix, SysEx End recognition (GM sounds went off after SysEx transmission, i.e. HX3.5 Editor connected)
+
+Only "Firmware Update" (no EEPROM) necessary if updating from 5.105 and up.
 
 <b>09/19/2018</b> Firmware #5.200, HX3.5 Editor #5.200
 
