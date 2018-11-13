@@ -24,7 +24,13 @@ Parts to be updated from previous version are mentioned in headline.
 
 ### Changelog
 
-<b>09/19/2018</b> Firmware 5.300 BETA
+<b>10/13/2018</b> Firmware 5.301
+
+* Firmware: Bugfix, SysEx communication fails on MIDI channels different from 1
+
+Only "Firmware Update" (no EEPROM) necessary if updating from 5.105 and up.
+
+<b>09/19/2018</b> Firmware 5.300
 
 * Firmware: Clavia Nord C1/C2 MIDI CC set #7
 * Firmware: MIDI ProgramChange Send/Receive
@@ -32,6 +38,15 @@ Parts to be updated from previous version are mentioned in headline.
 * Firmware: Bank Select Send/Receive for Overall Presets
 * Firmware: Faster integrator for MIDI Swell/Volume changes
 * Firmware: Bugfixes 2nd Drawbar Set Select for DB9 MPX, Percussion Cancel
+* HX3.5 Editor: Minor cosmetic changes, added DFU driver for Win XP in ZIP
+
+Firmware 5.3 set to final status (no changes since last version 5.300 BETA). 
+Only "Firmware Update" (no EEPROM) necessary if updating from 5.105 and up.
+ 
+KNOWN BUG: SysEx Communications will fail on MIDI Channels other than 1. 
+Therefore, HX3.5 Editor will no longer work with MIDI over USB connection. 
+Workaround: With HX3.5 MenuPanel, set MIDI Channel to 1 and store. In HX3.5 
+Editor, set parameter 1368 to 0 (= MIDI Channel 1).
 
 <b>09/19/2018</b> DSP Firmware HX35_5504-FW_0106.dfu, Firmware 5.202 BETA
 
