@@ -24,11 +24,13 @@ Parts to be updated from previous version are mentioned in headline.
 
 ### Changelog
 
-<b>10/13/2018</b> Firmware 5.301
+<b>10/13/2018</b> Firmware 5.301, Scan Driver #17
 
-* Firmware: Bugfix, SysEx communication fails on MIDI channels different from 1
+* Scan Driver: Split will affect local keyboard only. Split will have no effect on MIDI input.
+* Firmware: Bugfix, SysEx communication (i.e. HX3.5 Editor connection) fails on MIDI channels different from 1
 
 Only "Firmware Update" (no EEPROM) necessary if updating from 5.105 and up.
+Update Scan Driver if using MIDI input with masterkeyboards (will handle split itself) 
 
 <b>09/19/2018</b> Firmware 5.300
 
