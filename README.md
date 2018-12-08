@@ -20,7 +20,10 @@ Updates are possible by one of the following methods:
 * via [HX3.5 Editor with old Extension Board mk4](http://wiki.keyboardpartner.de/index.php?title=HX3.5_Update_by_FTDI_or_Extension_Board_mk4#Extension_Board_mk4_connection) (Windows operating system required)
 * via [SD Card and SD Card slot adaptor](http://wiki.keyboardpartner.de/index.php?title=HX3.5_SD_Card_Usage), available separately (access to board connectors required)
  
-<b>Important</b>
+<b>Update Notes</b>
+
+Common firmware and EEPROM files for all products **now contained in HX3.5 Editor 5.4 ZIP** - no
+need to download UPDATE ZIPs separately if not using SD Card for updates. 
 
 Update "Firmware file only" from HX3.5 Editor's "Update/Finalize Panel" 
 necessary if updating from 5.2 and up. Update Scan Driver if using MIDI input 
@@ -40,20 +43,25 @@ Additional update installations are noted in the Changelog.
 
 ### Changelog
 
-<b>10/13/2018</b> Firmware #5.401, DSP #01.09 (with GM voices) and #11.09 (no GM, but more reverb algorithms)
+<b>10/13/2018</b> Firmware #5.401 BETA, DSP #01.09 (with GM voices) and #11.09 (no GM, but more reverb algorithms)
 
-* DSP: 3-Band Equalizer added with parametric mid control, available from MenuPanel and 
-HX3.5 Editor parameters "Volume Pots" resp. "Trim Pots". Equalizer affects both 
-Rotary simulation as well as Leslie (R) output on extension board.
+* DSP: 3-Band Equalizer added with parametric mid control, available from 
+MenuPanel and HX3.5 Editor parameters "Volume Pots" resp. "Trim Pots". Equalizer 
+affects both Rotary simulation as well as Leslie (R) output on extension board. 
+<b>Note: 3-Band EQ available for extended Licence only.</b>
+* Firmware: Generator Mode "knob" added. Will set waveset (sine distortion), key click 
+params, tonewheel count and note frequencies according to selected model.
+* Keying/Gating tabs (EG/H100) will not affect independant Generator Mode
+* Firmware: Generator Mode "M3/M100" added
+* See **Update Notes** above!
 
 Please update DSP with USB connection by clicking "Start DFU" in HX3.5 Editor's "Update/Finalize 
-Panel" as well as firmware file.
+Panel" as well as firmware file. Firmware #5.4 only works with DSP #01.09 and #11.09 and vice versa.
 
 <b>10/13/2018</b> Firmware 5.301, Scan Driver #17
 
 * Scan Driver: Split will affect local keyboard only. Split will have no effect on MIDI input.
 * Firmware: Bugfix, SysEx communication (i.e. HX3.5 Editor connection) fails on MIDI channels different from 1
-
 
 <b>09/19/2018</b> Firmware 5.300
 
