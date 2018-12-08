@@ -20,19 +20,42 @@ Updates are possible by one of the following methods:
 * via [HX3.5 Editor with old Extension Board mk4](http://wiki.keyboardpartner.de/index.php?title=HX3.5_Update_by_FTDI_or_Extension_Board_mk4#Extension_Board_mk4_connection) (Windows operating system required)
 * via [SD Card and SD Card slot adaptor](http://wiki.keyboardpartner.de/index.php?title=HX3.5_SD_Card_Usage), available separately (access to board connectors required)
  
+<b>Important</b>
+
 Parts to be updated from previous version are mentioned in headline.
 
+Update "Firmware file only" from HX3.5 Editor's "Update/Finalize Panel" 
+necessary if updating from 5.2 and up. Update Scan Driver if using MIDI input 
+with masterkeyboards (will handle split itself). If you want to retain previous 
+split function (affects sound generator), do not update Scan Driver or use #16 
+(enclosed). 
+
+If updating from firmware version below 5.2, use "Firmware/EEPROM Update" from 
+HX3.5 Editor's "Update/Finalize Panel". Voice Presets will be lost.
+
+After updating firmware, <b>run appropriate INI file for your product</b> 
+(config_xxx.ini) by clicking "Execute INI" in HX3.5 Editor's "Update/Finalize 
+Panel". For DIY organ installations, adjusting of "System Inits" params may be 
+necessary.
+
+Additional update installations are noted in the Changelog.
+
 ### Changelog
+
+<b>10/13/2018</b> Firmware #5.401, DSP #01.09 (with GM voices) and #11.09 (no GM, but more reverb algorithms)
+
+* DSP: 3-Band Equalizer added with parametric mid control, available from MenuPanel and 
+HX3.5 Editor parameters "Volume Pots" resp. "Trim Pots". Equalizer affects both 
+Rotary simulation as well as Leslie (R) output on extension board.
+
+Please update DSP with USB connection by clicking "Start DFU" in HX3.5 Editor's "Update/Finalize 
+Panel" as well as firmware file.
 
 <b>10/13/2018</b> Firmware 5.301, Scan Driver #17
 
 * Scan Driver: Split will affect local keyboard only. Split will have no effect on MIDI input.
 * Firmware: Bugfix, SysEx communication (i.e. HX3.5 Editor connection) fails on MIDI channels different from 1
 
-Only "Firmware Update" (no EEPROM) necessary if updating from 5.105 and up. 
-Update Scan Driver if using MIDI input with masterkeyboards (will handle split 
-itself). If you want to retain previous split function (affects sound generator), 
-do not update Scan Driver or use #16 (enclosed). 
 
 <b>09/19/2018</b> Firmware 5.300
 
