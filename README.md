@@ -22,8 +22,6 @@ Updates are possible by one of the following methods:
  
 <b>Important</b>
 
-Parts to be updated from previous version are mentioned in headline.
-
 Update "Firmware file only" from HX3.5 Editor's "Update/Finalize Panel" 
 necessary if updating from 5.2 and up. Update Scan Driver if using MIDI input 
 with masterkeyboards (will handle split itself). If you want to retain previous 
