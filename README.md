@@ -41,7 +41,7 @@ Additional update installations are noted in the Changelog.
 
 ### Changelog
 
-<b>12/08/2018</b> Firmware #5.401 BETA, DSP #01.09 (with GM voices) and #11.09 (no GM, but more reverb algorithms)
+<b>12/08/2018</b> Firmware #5.400 BETA, DSP #01.09 (with GM voices) and #11.09 (no GM, but more reverb algorithms)
 
 * DSP: 3-Band Equalizer added with parametric mid control, available from 
 MenuPanel and HX3.5 Editor parameters "Volume Pots" resp. "Trim Pots". Equalizer 
