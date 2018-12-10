@@ -22,8 +22,12 @@ Updates are possible by one of the following methods:
  
 ### Update Notes
 
-Common firmware and EEPROM files for all products **now contained in HX3.5 Editor 5.4 ZIP** - no
-need to download UPDATE ZIPs separately if not using SD Card for updates. 
+Common firmware and EEPROM files for all products **now contained in HX3.5 
+Editor 5.4 ZIP** - no need to download UPDATE ZIPs separately. When unzipped, 
+HX3.5 Editor directory will contain several .BAT batch command files to create 
+customized SDCARD folders. Just double-click the matching "make_sdcard_xxx.bat" 
+file for your product and copy **content** of SDCARD folder to your SD card root 
+directory.
 
 Update "Firmware file only" from HX3.5 Editor's "Update/Finalize Panel" 
 necessary if updating from 5.2 and up. 
@@ -35,13 +39,14 @@ HX3.5 Editor's "Update/Finalize Panel". Voice Presets will be lost with
 After updating firmware, <b>run appropriate INI file for your product</b> 
 (config_xxx.ini) by clicking "Execute INI" in HX3.5 Editor's "Update/Finalize 
 Panel". For DIY organ installations, adjusting of "System Inits" params may be 
-necessary.
+necessary. Matching "config.ini" files are also contained in SDCARD folder 
+created by .BAT batch command.
 
 Additional update installations are noted in the Changelog.
 
 ### Changelog
 
-<b>12/08/2018</b> Firmware #5.400 BETA, DSP #01.09 (with GM voices) and #11.09 (no GM, but more reverb algorithms)
+<b>12/10/2018</b> Firmware #5.401 BETA, DSP #01.09 (with GM voices) and #11.09 (no GM, but more reverb algorithms)
 
 * DSP: 3-Band Equalizer added with parametric mid control, available from 
 MenuPanel and HX3.5 Editor parameters "Volume Pots" resp. "Trim Pots". Equalizer 
@@ -51,6 +56,8 @@ affects both Rotary simulation as well as Leslie (R) output on extension board.
 params, tonewheel count and note frequencies according to selected model.
 * Firmware: Keying/Gating tabs (EG/H100) will not affect independant Generator Mode
 * Firmware: Generator Mode "M3/M100" added
+* Firmware #5.401: ADC scaling factor for MAG organs added (limited potentiometer range), should be at 120 for MAG organs and 100 for other
+* Firmware #5.401: Fixed Equalizer parameter order
 
 Common firmware and EEPROM files for all products **now contained in HX3.5 
 Editor 5.4 ZIP** from now on - no need to download UPDATE ZIPs separately if not 
