@@ -46,6 +46,12 @@ Additional update installations are noted in the Changelog.
 
 ### Changelog
 
+<b>12/12/2018</b> DSP #01.10 (with GM voices) and #11.10 (no GM, but more reverb algorithms)
+
+* DSP: Fixed a bug that prevented SysEx block transfers
+
+Please update DSP to 01.10 or 11.10 first before attempting firmware or FPGA updates!
+
 <b>12/10/2018</b> Firmware #5.401 BETA, DSP #01.09 (with GM voices) and #11.09 (no GM, but more reverb algorithms)
 
 * DSP: 3-Band Equalizer added with parametric mid control, available from 
