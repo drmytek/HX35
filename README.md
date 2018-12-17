@@ -46,14 +46,11 @@ Additional update installations are noted in the Changelog.
 
 ### Changelog
 
-<b>12/12/2018</b> DSP #01.10 (with GM voices) and #11.10 (no GM, but more reverb algorithms)
+<b>12/12/2018</b> Firmware #5.402 BETA, DSP #01.12 (with GM voices) and #11.12 (no GM, but more reverb algorithms)
 
 * DSP: Fixed a bug that prevented SysEx block transfers
-
-Please update DSP to 01.10 or 11.10 first before attempting firmware or FPGA updates!
-
-<b>12/10/2018</b> Firmware #5.401 BETA, DSP #01.09 (with GM voices) and #11.09 (no GM, but more reverb algorithms)
-
+* Re-sorted DSP NRPNs
+* Firmware: Generator mode on Parameter 1266 to retain compatibility with #5.3xx
 * DSP: 3-Band Equalizer added with parametric mid control, available from 
 MenuPanel and HX3.5 Editor parameters "Volume Pots" resp. "Trim Pots". Equalizer 
 affects both Rotary simulation as well as Leslie (R) output on extension board. 
@@ -65,13 +62,15 @@ params, tonewheel count and note frequencies according to selected model.
 * Firmware #5.401: ADC scaling factor for MAG organs added (limited potentiometer range), should be at 120 for MAG organs and 100 for other
 * Firmware #5.401: Fixed Equalizer parameter order
 
-Common firmware and EEPROM files for all products **now contained in HX3.5 
-Editor 5.4 ZIP** from now on - no need to download UPDATE ZIPs separately if not 
-using SD Card for updates. 
+Please update DSP to 01.12 or 11.12 first before attempting firmware or FPGA updates!
 
-Please update DSP with USB connection by clicking "Start DFU" in HX3.5 Editor's 
-"Update/Finalize Panel" as well as firmware file. Firmware #5.4 only works with 
-DSP #01.09 and #11.09 and vice versa. See **Update Notes** above!
+Click "Start DFU" in HX3.5 Editor's "Update/Finalize Panel" to start DFU Update. 
+Firmware #5.4 only works with DSP #01.12 resp. #11.12 and vice versa. See **Update 
+Notes** above! 
+
+Common firmware and EEPROM files for all products **now contained 
+in HX3.5 Editor 5.4 ZIP** from now on - no need to download UPDATE ZIPs 
+separately if not using SD Card for updates. 
 
 <b>10/13/2018</b> Firmware 5.301, Scan Driver #17
 
