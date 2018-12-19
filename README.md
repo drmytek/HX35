@@ -46,7 +46,7 @@ Additional update installations are noted in the Changelog.
 
 ### Changelog
 
-<b>12/12/2018</b> Firmware #5.402 BETA, DSP #01.12 (with GM voices) and #11.12 (no GM, but more reverb algorithms)
+<b>12/12/2018</b> Firmware #5.403 BETA, DSP #01.12 (with GM voices) and #11.12 (no GM, but more reverb algorithms)
 
 * DSP: Fixed a bug that prevented SysEx block transfers
 * Re-sorted DSP NRPNs
@@ -61,6 +61,7 @@ params, tonewheel count and note frequencies according to selected model.
 * Firmware: Generator Mode "M3/M100" added
 * Firmware #5.401: ADC scaling factor for MAG organs added (limited potentiometer range), should be at 120 for MAG organs and 100 for other
 * Firmware #5.401: Fixed Equalizer parameter order
+* Firmware #5.403: fixed Menu enables
 
 Please update DSP to 01.12 or 11.12 first before attempting firmware or FPGA updates!
 
