@@ -46,6 +46,12 @@ Additional update installations are noted in the Changelog.
 
 ### Changelog
 
+<b>12/12/2018</b> Firmware #5.405 BETA, DSP #01.13 (with GM voices) and #11.13 (no GM, but more reverb algorithms)
+
+* DSP: Equalizer Bypass added
+* Softer percussion for H100 Mode
+* Preset16 Button "DoubleTap" feature (will recall GM voices, +16, blinking Preset16 LED) on standard organ installations may be turned off with param #1509
+
 <b>12/12/2018</b> Firmware #5.403 BETA, DSP #01.12 (with GM voices) and #11.12 (no GM, but more reverb algorithms)
 
 * DSP: Fixed a bug that prevented SysEx block transfers
