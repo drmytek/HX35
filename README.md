@@ -46,6 +46,12 @@ Additional update installations are noted in the Changelog.
 
 ### Changelog
 
+<b>01/09/2019</b> HX3.5 Editor 5.4051, DSP #01.14 (with GM voices) and #11.14 (no GM, but more reverb algorithms)
+
+* Bugfix in USB library to prevent DSP stall using VMware Windows emulation on MacOS
+* Extension Board Sostenuto input ("Main" jack) deleted, instead separate sustain pedal inputs for upper ("Bass" jack) and lower manual ("Main" jack)
+* HX3.5 Editor: Bugfix Taperings update, wrong filename
+
 <b>12/12/2018</b> Firmware #5.405 BETA, DSP #01.13 (with GM voices) and #11.13 (no GM, but more reverb algorithms)
 
 * DSP: Equalizer Bypass added
